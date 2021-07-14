@@ -1,0 +1,19 @@
+:root {
+  --skin-color: #fb839e;
+  --skin-color1: #ec9412;
+  --skin-color2: #1fc586;
+  --skin-color3: #2eb1ed;
+  --skin-color4: #cc3a3b;
+  /* background color */
+  --bg-black-900: #000000;
+  --bg-black-100: #dddddd;
+  --bg-black-50: #eff0f4;
+  --text-black-900: #000000;
+  --text-black-700: #555555;
+  --text-black-600: #666666;
+  --text-black-300: #bbbbbb;
+
+  --outer-shadow: red 0px 22px 70px 4px;
+  --outer-shadow-0: 0 0 0px rgba(27, 189, 167, 0.432);
+  --inner-shadow: inset 3px 3px 3px #7a15cc;
+}
