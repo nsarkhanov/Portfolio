@@ -5,3 +5,12 @@
     height: 450px;
     width: 400px;
 } */
+
+#contact_section #contact_items{
+    width: 45px;;
+    height: 45px;
+}
+#contact_section #contact_items:hover img{
+    width: 65px;;
+    height: 65px;
+}
