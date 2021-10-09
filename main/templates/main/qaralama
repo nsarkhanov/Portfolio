@@ -150,3 +150,84 @@
      </div>
 
  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="container">
+    <div class="row timeline">
+      <div class="timeline-bar"></div>
+      <div class="col-sm-6 timeline-left">
+      <div class="timeline-container">
+        <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+        <div class="timeline-arrow"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad suscipit deserunt fuga aut corporis officia! Vitae molestias, eligendi cum velit necessitatibus dolorem, repellat inventore perferendis, nostrum reiciendis doloremque quisquam.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-sm-offset-6 timeline-right">
+      <div class="timeline-container">
+        <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+        <div class="timeline-arrow"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, accusamus perspiciatis quo repellat tempora corporis fuga, delectus facere nisi enim in iusto inventore veritatis optio debitis deleniti commodi asperiores. Consequatur.</p>
+        </div>
+      </div>
+
+
+
+
+
+
+      </div>
+      <div class="row timeline">
+      <div class="timeline-bar"></div>
+      <div class="col-sm-6 timeline-left">
+      <div class="timeline-container">
+        <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+        <div class="timeline-arrow"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad suscipit deserunt fuga aut corporis officia! Vitae molestias, eligendi cum velit necessitatibus dolorem, repellat inventore perferendis, nostrum reiciendis doloremque quisquam.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-sm-offset-6 timeline-right">
+      <div class="timeline-container">
+        <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+        <div class="timeline-arrow"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, accusamus perspiciatis quo repellat tempora corporis fuga, delectus facere nisi enim in iusto inventore veritatis optio debitis deleniti commodi asperiores. Consequatur.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row timeline">
+          <div class="timeline-bar"></div>
+          <div class="col-sm-6 timeline-left">
+          <div class="timeline-container">
+            <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+            <div class="timeline-arrow"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad suscipit deserunt fuga aut corporis officia! Vitae molestias, eligendi cum velit necessitatibus dolorem, repellat inventore perferendis, nostrum reiciendis doloremque quisquam.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-sm-offset-6 timeline-right">
+          <div class="timeline-container">
+            <div class="timeline-circle"><i class="fa fa-code" aria-hidden="true"></i></div>
+            <div class="timeline-arrow"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, accusamus perspiciatis quo repellat tempora corporis fuga, delectus facere nisi enim in iusto inventore veritatis optio debitis deleniti commodi asperiores. Consequatur.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    
