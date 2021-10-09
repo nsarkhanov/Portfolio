@@ -1,12 +1,9 @@
-/* #navmenu{
-    color: black;
+.bi-linkedin:hover{
+    color: orangered !important;
 }
-#profile{
-    height: 450px;
-    width: 400px;
-} */
-/* 
-#contact_section #contact_items .col-sm-auto i{
-    width: 80px;;
-    height: 80px;
-}  */
+.bi-github:hover{
+    color: orangered !important;
+}
+.bi-envelope:hover{
+    color: orangered !important;
+}
