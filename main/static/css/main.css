@@ -6,7 +6,7 @@
     width: 400px;
 } */
 
-/* /* #contact_section #contact_items img{
-    width: 40px;;
-    height: 40px;
-} */
+#contact_section #contact_items .col-sm-auto img{
+    width: 55px;;
+    height: 55px;
+} 
