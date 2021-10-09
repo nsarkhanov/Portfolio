@@ -6,11 +6,16 @@
     width: 400px;
 } */
 
-/* #contact_section #contact_items img{
+/* /* #contact_section #contact_items img{
     width: 40px;;
     height: 40px;
-}
-#contact_section #contact_items img:hover {
-    width: 65px;;
-    height: 65px;
 } */
+#contact_sectio{
+    position: relative;
+    align-items:;
+}
+#contact_section .row {
+   position: absolute;
+   bottom: 10em;
+
+} 
