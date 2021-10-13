@@ -22,13 +22,9 @@ def contact_me(request):
             'message':message
         }
         message='''
-        From: {}
+        From:{}
 
-        New message: {}
-
-        
-        
-        
+        New message:{}
         '''.format(data['email'],data['message'])
         send_mail('From Website',message,'',['nsarkhanov@gmail.com'])
     return render(request,'main/contact.html',{})
