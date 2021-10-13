@@ -1,5 +1,6 @@
 from django.http import HttpResponse, response
 from django.shortcuts  import render
+from django.core.mail import send_mail
 
 
 def home(response):
@@ -10,5 +11,22 @@ def home(response):
 def projects(response):
    return render(response,'main/projects.html',{})
 
-def contact_me(response):
-    return render(response,'main/contact.html',{})
+def contact_me(request):
+    # if request.method=="POST":
+    #     f_name=request.POST.get('full-name')
+    #     email=request.POST.get('email')
+    #     message=request.POST.get('message')
+    #     data={
+    #         'name':f_name,
+    #         'email':email,
+    #         'message':message
+    #     }
+    #     message='''
+    #     New message: {}
+
+    #     From: {}
+        
+        
+    #     '''.format(data['message'],data['email'])
+    #     send_mail('From Website',message,'',['xperia.1.ns@gmail.com'])
+    return render(request,'main/contact.html',{})

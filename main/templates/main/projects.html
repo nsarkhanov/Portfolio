@@ -1,12 +1,145 @@
 {% extends 'main/base.html' %}
-
 {% block title %} Projects {% endblock %}
-
 {% block content %}
-<section class="">
+<!-- {% load static %} -->
+<section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container">
+       
+        <div class="d-md-flex align-items-center ">
+           
+            <div class="container px-5">
+                <div class="title-project">
+                    <h1><span class="text-warning">Projects</span></h1>
+                    <p class="lead">
+                        Let's check my projects
+                    </p>
+                </div>
+            </div>
+            
+            <img class="img-fluid d-none d-sm-block" id="profile"
+               
+                src="{% static 'main/images/banner/banner-image.png' %}"  width="350px" height="300px">
+            
+        </div>
+    </div>
+</section>
+<section class="p-5"><div class="container">
+    
+    <div class="row text-center">
+         <!-- goodreads -->
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'main/images/portfolio/goodreads.png' %}" class="card-img-top"  height="150px"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GoodsReads</h5>
+                  <p class="card-text">Scrapping site of GoodsReads and analysis  data to find the best book for future movie </p>
+                  <a href="https://share.streamlit.io/dumbledore-on-strive/goodreads-app"  target="_blank" class="btn btn-primary">Go</a>
+                  
+                </div>
+                
+              </div>
 
+        </div>
+        <!-- youtube NLP -->
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'main/images/portfolio/deltanlp.png' %}" class="card-img-top" height="150px"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NLP for Youtube</h5>
+                  <p class="card-text">Generate text from Youtube videos, summarize the text and return sentiment analysis</p>
+                  <a href="https://share.streamlit.io/deltanlp/youtube-nlp/main/app.py" target="_blank" class="btn btn-primary">Go</a>
+                  
+                </div>
+                
+              </div>
+            
+        </div>
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'main/images/portfolio/deltanlp.png' %}" class="card-img-top" height="150px"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NLP for Youtube</h5>
+                  <p class="card-text">Generate text from Youtube videos, summarize the text and return sentiment analysis</p>
+                  <a href="https://share.streamlit.io/deltanlp/youtube-nlp/main/app.py" class="btn btn-primary">Go</a>
+                  
+                </div>
+                
+              </div>
+            
+        </div>
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'main/images/portfolio/deltanlp.png' %}" class="card-img-top" height="150px"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NLP for Youtube</h5>
+                  <p class="card-text">Generate text from Youtube videos, summarize the text and return sentiment analysis</p>
+                  <a href="https://share.streamlit.io/deltanlp/youtube-nlp/main/app.py" class="btn btn-primary">Go</a>
+                  
+                </div>
+                
+              </div>
+            
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="row text-center">
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'main/images/portfolio/goodreads.png' %}" class="card-img-top"  height="150px"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GoodsReads</h5>
+                  <p class="card-text">Scrapping site of GoodsReads and analysis  data to find the best book for future movie </p>
+                  <a href="https://share.streamlit.io/dumbledore-on-strive/goodreads-app" class="btn btn-primary">Go</a>
+                  
+                </div>
+                
+              </div>
 
+        </div>
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'main/images/portfolio/deltanlp.png' %}" class="card-img-top" height="150px"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NLP for Youtube</h5>
+                  <p class="card-text">Generate text from Youtube videos, summarize the text and return sentiment analysis</p>
+                  <a href="https://share.streamlit.io/deltanlp/youtube-nlp/main/app.py" class="btn btn-primary">Go</a>
+                  
+                </div>
+                
+              </div>
+            
+        </div>
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'main/images/portfolio/deltanlp.png' %}" class="card-img-top" height="150px"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NLP for Youtube</h5>
+                  <p class="card-text">Generate text from Youtube videos, summarize the text and return sentiment analysis</p>
+                  <a href="https://share.streamlit.io/deltanlp/youtube-nlp/main/app.py" class="btn btn-primary">Go</a>
+                  
+                </div>
+                
+              </div>
+            
+        </div>
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'main/images/portfolio/deltanlp.png' %}" class="card-img-top" height="150px"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NLP for Youtube</h5>
+                  <p class="card-text">Generate text from Youtube videos, summarize the text and return sentiment analysis</p>
+                  <a href="https://share.streamlit.io/deltanlp/youtube-nlp/main/app.py" class="btn btn-primary">Go</a>
+                  
+                </div>
+                
+              </div>
+            
+        </div>
+    </div>
+</div></section>
 
 </section>
-{% endblock %}
 
+{% endblock %}

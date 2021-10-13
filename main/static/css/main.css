@@ -8,19 +8,14 @@
 }
 .bi-envelope:hover{
  
-    color: orangered !important;
-    animation-name: example;
-  animation-duration: 4s;
-}
-@keyframes example {
-    0%   {color:rgb(36, 29, 29);}
-    25%  {color:yellow; }
-    50%  {color:blue;}
-    75%  {color:green;}
-    100% {bcolor:red;}
+    color: yellow !important;
+ 
+
 }
 
 
-#hireme{
 
-}
+
+#navbar .navbar-nav .nav-link:hover {
+    color: red !important;
+    }
