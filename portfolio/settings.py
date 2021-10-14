@@ -24,11 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = int(os.environ.get('DEBUG', default=1)) 
-if os.getcwd() == '/portfolio:
-    DEBUG = False
-
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'nurlansarkhanov.herokuapp.com']
+# DEBUG = int(os.environ.get('DEBUG', default=1)) 
+# if os.getcwd() == '/portfolio:
+#     DEBUG = False
+DEBUG = True
+ALLOWED_HOSTS = []
 
 
 
@@ -141,10 +141,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
+EMAIL_HOST_USER ='xperia.1.ns@gmail.com'
+EMAIL_HOST_PASSWORD = 'Nn132465798'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
