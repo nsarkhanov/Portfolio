@@ -27,3 +27,8 @@
 .certicates{
   background-color: gray !important;
 }
+.blog-container .loading{
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}

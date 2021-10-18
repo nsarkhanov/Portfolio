@@ -11,6 +11,10 @@ def home(response):
 def projects(response):
    return render(response,'main/projects.html',{})
 
+
+def blog(response):
+   return render(response,'main/blog.html',{})
+
 def contact_me(request):
     if request.method=="POST":
         f_name=request.POST.get('full-name')
