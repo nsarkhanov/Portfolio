@@ -1,5 +1,5 @@
 .bi-linkedin:hover{
-    
+
     color: orangered !important;
 }
 .bi-github:hover{
@@ -7,15 +7,23 @@
     color: orangered !important;
 }
 .bi-envelope:hover{
- 
+
     color: yellow !important;
- 
+
 
 }
-
-
-
 
 #navbar .navbar-nav .nav-link:hover {
     color: red !important;
     }
+
+
+.carousel-control-next-icon {background-color: dimgray !important;}
+.carousel-control-prev-icon {background-color: dimgray !important;}
+.carousel-item{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.certicates{
+  background-color: gray !important;
+}
