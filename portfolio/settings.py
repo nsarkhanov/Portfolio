@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import django_heroku
+import json
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -27,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
 # DEBUG = int(os.environ.get('DEBUG', default=1))
 # if os.getcwd() == '/portfolio:
 #     DEBUG = False
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = []
 
 
