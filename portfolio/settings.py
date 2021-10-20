@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
 # DEBUG = int(os.environ.get('DEBUG', default=1))
 # if os.getcwd() == '/portfolio:
 #     DEBUG = False
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = []
 
 
