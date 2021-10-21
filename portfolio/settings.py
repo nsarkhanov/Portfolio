@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+<<<<<<< HEAD
+=======
+import django_heroku
+>>>>>>> 06012aef6b2227d7c769fb75876d6adc1f10d5bc
 import json
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -22,7 +26,18 @@ with open ('/etc/portfolio.json') as config_file:
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = config['SECRET_KEY']
+=======
+SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
+
+# SECURITY WARNING: don't run with debug turned on in production!
+# DEBUG = int(os.environ.get('DEBUG', default=1))
+# if os.getcwd() == '/portfolio:
+#     DEBUG = False
+DEBUG = True
+ALLOWED_HOSTS = []
+>>>>>>> 06012aef6b2227d7c769fb75876d6adc1f10d5bc
 
 
 DEBUG = False
@@ -124,6 +139,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 #backen mail
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -131,3 +147,17 @@ EMAIL_HOST_USER =config.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = config.get('EMAIL_PASS')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+=======
+
+
+
+# 
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
+>>>>>>> 06012aef6b2227d7c769fb75876d6adc1f10d5bc
