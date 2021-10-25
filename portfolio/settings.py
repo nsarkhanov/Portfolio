@@ -11,7 +11,7 @@ with open ('/etc/portfolio.json') as config_file:
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config['SECRET_KEY']
 DEBUG = True
-ALLOWED_HOSTS = ['nurlansarkhanov.com','www.nurlansarkhanov.com']
+ALLOWED_HOSTS = ['*','nurlansarkhanov.com','www.nurlansarkhanov.com']
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
